@@ -17,9 +17,12 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
     <!-- google fonts -->
     <!-- customizing config cdn -->
     <script>
@@ -49,59 +52,124 @@
     <link rel="stylesheet" href="./css/style.css" />
     <!--css link  -->
   </head>
-  <body class="font-roboto max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
-    
+  <body
+    class="font-roboto max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5"
+  >
     <!-- navbar start -->
     <div class="navbar">
-
-        <div class="navbar-start">
-          <div class="dropdown">
-            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-            </div>
-            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52">
-              <li><a>Restaurants</a></li>
-              <li><a>Recipes</a></li>
-              <li><a>About</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              
-            </ul>
+      <div class="navbar-start">
+        <div class="dropdown">
+          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-5 w-5"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke="currentColor"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
+            </svg>
           </div>
-          <a class="btn btn-ghost text-xl"><img class="w-[30px] md:w-[30px] lg:w-[42px] h-[42px]" src="./images/🍕.png" alt=""></a>
-        </div>
-
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal px-1 font-medium">
-            <li ><a>Restaurants</a></li>
-              <li><a>Recipes</a></li>
-              <li><a>About</a></li>
+          <ul
+            tabindex="0"
+            class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52"
+          >
+            <li><a>Restaurants</a></li>
+            <li><a>Recipes</a></li>
+            <li><a>About</a></li>
             <li>
-              <details>
-                <summary>Page</summary>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
+              <a>Parent</a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
             </li>
-           
           </ul>
         </div>
-
-        <div class="navbar-end flex gap-5">
-          <button class="font-medium">Login</button>
-
-          <button class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium">Sign up</button>
-        </div>
-
+        <a class="btn btn-ghost text-xl"
+          ><img
+            class="w-[30px] md:w-[30px] lg:w-[42px] lg:h-[42px]"
+            src="./images/🍕.png"
+            alt=""
+        /></a>
       </div>
+
+      <div class="navbar-center hidden lg:flex">
+        <ul class="menu menu-horizontal px-1 font-medium">
+          <li><a>Restaurants</a></li>
+          <li><a>Recipes</a></li>
+          <li><a>About</a></li>
+          <li>
+            <details>
+              <summary>Page</summary>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </details>
+          </li>
+        </ul>
+      </div>
+
+      <div class="navbar-end flex gap-5">
+        <button class="font-medium">Login</button>
+
+        <button
+          class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium"
+        >
+          Sign up
+        </button>
+      </div>
+    </div>
     <!-- navbar end -->
+
+    <!-- Banner section start -->
+    <div class="mt-10 flex flex-col md:flex-row lg:flex-row gap-6">
+        <!-- leftside -->
+        <div class=" flex-1 space-y-6">
+            <h1 class="font-bold lg:text-[61px] lg:leading-[60px]">Your Favorite Food <br> Delivery Partner</h1>
+            <p>The food at your doorstep. Why starve when you have us. You hunger partner. Straight out of the oven to your doorstep. </p>
+            <div >
+                <input class="input input-bordered join-item" placeholder="Enter your delivery location"/>
+                <button class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium">Order Now</button>
+              </div>
+
+              <!-- fafaf -->
+              <div class="flex gap-10">
+                <div class="flex gap-4">
+                    <div>
+                        <img src="./images/Apple logo.png" alt="">
+                    </div>
+                    <div>
+                        <p>Download on the </p>
+                        <h2>App Store</h2>
+                    </div>
+                </div>
+<!-- ............... -->
+                <div class="flex gap-4">
+                    <div>
+                        <img src="./images/Google Play logo.png" alt="">
+                    </div>
+                    <div>
+                        <p>Download on the </p>
+                        <h2>App Store</h2>
+                    </div>
+                </div>
+
+              </div>
+              <!-- fafaf -->
+        </div>
+        <!-- rightside -->
+        <div class=" p-5 flex-1 bg-[#F2EBDA] rounded-md ">
+            <img src="./images/Images (2).png" alt="">
+        </div>
+    </div>
+    <!-- Banner section end -->
 
   </body>
 </html>
