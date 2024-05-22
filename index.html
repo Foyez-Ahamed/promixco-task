@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="./images/🍕.png" type="image/x-icon" />
     <!-- favicon -->
 
-    <!-- tailwind and daisyUI cdn -->
+    <!-- tailwind cdn -->
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css"
       rel="stylesheet"
@@ -37,9 +37,9 @@
       };
     </script>
 
-    <!-- customs css link -->
+    <!-- custom css link -->
     <style>
-      .font-roboto {
+      .font-inter {
         font-family: "Inter", sans-serif;
       }
 
@@ -53,7 +53,7 @@
     <!--css link  -->
   </head>
   <body
-    class="font-roboto"
+    class="font-inter"
   >
     <!-- navbar start -->
     <div class="navbar max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
@@ -120,7 +120,7 @@
         <button class="font-medium">Login</button>
 
         <button
-          class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium"
+          class="w-[115px] p-2 lg:p-0 lg:h-[56px] text-white rounded-full bg-primary-color font-medium"
         >
           Sign up
         </button>
@@ -130,12 +130,12 @@
 
     <!-- Banner section start -->
     <div
-      class="mt-10 flex justify-center items-center flex-col md:flex-row lg:flex-row gap-6 max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5"
+      class="mt-10 flex justify-center items-center flex-col md:flex-col-reverse lg:flex-row gap-6 max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5"
     >
       <!-- leftside -->
       <div class="flex-1 space-y-6">
         <h1
-          class="font-bold text-[40px] lg:text-[61px] lg:leading-[60px] text-[#191720]"
+          class="font-bold text-[35px] lg:text-[60px] lg:leading-[60px] text-[#191720]"
         >
           Your Favorite Food <br />
           Delivery Partner
@@ -146,18 +146,18 @@
         </p>
         <div>
           <input
-            class="bg-[#F6F6F6] rounded-full p-5"
+            class="bg-[#F6F6F6] rounded-full p-2 lg:p-5"
             placeholder="Enter your delivery location"
           />
           <button
-            class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium"
+            class="w-[115px] p-2 lg:p-0 lg:h-[56px] text-white rounded-full bg-primary-color font-medium"
           >
             Order Now
           </button>
         </div>
 
-        <!-- fafaf -->
-        <div class="flex flex-col lg:flex-row gap-10">
+      
+        <div class="flex flex-col md:flex-row lg:flex-row gap-10">
           <div
             class="flex justify-center items-center gap-4 p-4 bg-[#F4F4F4] rounded-lg"
           >
@@ -173,7 +173,7 @@
               <h2 class="text-[#090909] font-bold lg:text-2xl">App Store</h2>
             </div>
           </div>
-          <!-- ............... -->
+         
           <div
             class="flex justify-center items-center gap-4 p-4 bg-[#F4F4F4] rounded-lg"
           >
@@ -190,10 +190,9 @@
             </div>
           </div>
         </div>
-        <!-- fafaf -->
       </div>
       <!-- rightside -->
-      <div class="p-5 flex-1 bg-[#F2EBDA] rounded-md">
+      <div class="p-5 flex-1 bg-[#F2EBDA] rounded-3xl">
         <img src="./images/Images (2).png" alt="" />
       </div>
     </div>
@@ -343,7 +342,7 @@
     </div>
     <!-- dishes section end -->
 
-    <!-- order section -->
+    <!-- order section start -->
     <div class="mt-10 lg:mt-24 max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
       <div class="text-center">
         <h1
@@ -353,16 +352,17 @@
         </h1>
       </div>
 
+      <!-- card start -->
       <div
         class="flex flex-col lg:flex-row justify-between items-center gap-5 mt-16"
       >
-        <!-- div 1 -->
+      <!-- card one -->
         <div class="relative">
           <div>
             <h1 class="text-[43px] font-bold text-[#FF5331]">01</h1>
           </div>
           <div
-            class="w-[214px] h-[303px] rounded-xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
+            class="w-[214px] h-[270px] rounded-3xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
           >
             <div class="text-center">
               <div class="flex justify-center items-center">
@@ -376,14 +376,14 @@
             </div>
           </div>
         </div>
-        <!-- div 1 -->
-        <!-- div 2 -->
+
+        <!-- card two -->
         <div class="relative">
           <div>
             <h1 class="text-[43px] font-bold text-[#FF5331]">02</h1>
           </div>
           <div
-            class="w-[214px] h-[303px] rounded-xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
+            class="w-[214px] h-[270px] rounded-3xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
           >
             <div class="text-center">
               <div class="flex justify-center items-center">
@@ -397,13 +397,13 @@
             </div>
           </div>
         </div>
-        <!-- div3 -->
+        <!-- card three-->
         <div class="relative">
           <div>
             <h1 class="text-[43px] font-bold text-[#FF5331]">03</h1>
           </div>
           <div
-            class="w-[214px] h-[303px] rounded-xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
+            class="w-[214px] h-[270px] rounded-3xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
           >
             <div class="text-center">
               <div class="flex justify-center items-center">
@@ -417,13 +417,13 @@
             </div>
           </div>
         </div>
-        <!-- div 4 -->
+        <!-- card four -->
         <div class="relative">
           <div>
             <h1 class="text-[43px] font-bold text-[#FF5331]">04</h1>
           </div>
           <div
-            class="w-[214px] h-[303px] rounded-xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
+            class="w-[214px] h-[270px] rounded-3xl bg-[#FAFAFA] p-3 flex justify-center items-center relative z-10 mt-[-22px] "
           >
             <div class="text-center">
               <div class="flex justify-center items-center">
@@ -439,9 +439,9 @@
         </div>
       </div>
     </div>
-    <!-- order section -->
+    <!-- order section end-->
 
-    <!-- client feedback section -->
+    <!-- clients feedback start -->
     <div class="mt-10 lg:mt-24 flex justify-center items-center max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
       <div class="text-center space-y-5">
         <h1
@@ -467,11 +467,11 @@
         </div>
       </div>
     </div>
-    <!-- client feedback section -->
+    <!-- clients feedback end -->
 
-    <!-- subscription section -->
-    <div class="mt-10 lg:mt-24 bg-[#FFEFEC] p-14">
-       <div class="flex justify-between gap-6 max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
+    <!-- subscription section start-->
+    <div class="mt-10 lg:mt-24 bg-[#FFEFEC] p-1 lg:p-14">
+       <div class="flex justify-between flex-col lg:flex-row gap-6 max-w-screen-xl mx-auto px-2 md:px-10 lg:px-10 lg:py-5">
         <div class="space-y-5">
           <h2 class="text-xl lg:text-[46px] font-bold lg:leading-[50px] text-[#191720]">Subscribe our newsletter</h2>
           <p>Browse local restaurants and businesses for delivery by entering your address blow</p>
@@ -479,11 +479,11 @@
         <div>
           <div>
             <input
-              class="bg-[#F6F6F6] rounded-full p-5"
+              class="bg-[#F6F6F6] rounded-full p-2 lg:p-5"
               placeholder="Enter your delivery location"
             />
             <button
-              class="w-[115px] h-[56px] text-white rounded-full bg-primary-color font-medium"
+              class="w-[115px] p-2 lg:p-0 lg:h-[56px] text-white rounded-full bg-primary-color font-medium"
             >
               Order Now
             </button>
@@ -491,7 +491,7 @@
         </div>
        </div>
     </div>
-    <!-- subscription section -->
+    <!-- subscription section end-->
 
     <!-- footer section -->
     <div class="bg-[#000000]" >
