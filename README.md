@@ -15,6 +15,7 @@ This repository contains my submission for the Web Developer Internship challeng
 ## Project Overview
 
 The goal of this project was to demonstrate my skills in HTML and CSS by accurately recreating a design from a Figma file. The design is fully responsive, ensuring a seamless user experience across various devices.
+[Live link](https://foyez-ahamed.github.io/promixco-task/)
 
 ## Technologies Used
 
@@ -50,7 +51,6 @@ If you have any questions or need further clarification, feel free to reach out:
 
 - **Name**: Foyez Ahamed
 - **Email**: foyezahamedwd@gmail.com
-- **Live-link**: [Live link](https://foyez-ahamed.github.io/promixco-task/)
 
 Thank you for reviewing my submission!
 
